@@ -89,10 +89,12 @@ img .snooze{
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn, .active{
+.navbar a:hover, .dropdown:hover .dropbtn{
   background-color: red;
 }
-
+.active {
+  background-color: darkred;
+}
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
@@ -132,4 +134,7 @@ table, tr, th, td {
 }
 .table1 thead {
   background-color: red;
+}
+table .a:link{
+  color: pink;
 }

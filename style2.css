@@ -12,6 +12,12 @@ html {
 .headed{
   text-align: center;
 }
+.subheaded{
+  text-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
+
+}
 .blog{
   display: grid;
   height:auto;
@@ -89,9 +95,12 @@ img .snooze{
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn, .active {
+.navbar a:hover, .dropdown:hover .dropbtn{
   background-color: red;
 }
+ .active {
+   background-color: darkred;
+ }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
@@ -130,7 +139,14 @@ table, tr, th, td {
   background-color: orange  ;
 }
 .tablebutton{
-  border: none;
   outline: none;
   background-color:inherit;
+}
+.red{
+ color: red;
+}
+}
+table button:link{
+  color: pink;
+  text-decoration: none;
 }
