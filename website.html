@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href=style.css>
+    <title>Sam, Charlie and Gabe</title>
+  </head>
+  <h1 class="title">Sam, Charlie & Gabe</h1>
+  <div class="navbar">
+    <a href="website.html" class="active">Computer Science</a>
+    <a href="about.html">About</a>
+    <a href="test.html">Test</a>
+    <div class="dropdown">
+      <button class="dropbtn">Sam
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="sam1.html">About</a>
+        <a href="sam2.html">Portfolio</a>
+        <a href="sam3.html">Misc</a>
+        <a href="sam4.html">Table</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Charlie
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="poopfile.html">About Me</a>
+        <a href="Portfoliocharlie.html">Portfolio</a>
+        <a href="charlie3.html">Cool HTML Things</a>
+        <a href="charlie4.html">4</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Gabe
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="gabe1.html">About</a>
+        <a href="gabe2.html">Portfolio</a>
+        <a href="gabe3.html">Misc</a>
+        <a href="gabe4.html">More</a>
+      </div>
+    </div>
+  </div>
+  <body>
+    <h2 class="headed">Computer Science</h1>
+    <div class="blog">
+      <div class="CompSci">
+        <h3>Alarm Clock - Final Android App</h3>
+        <p>Have you ever had trouble getting out of bed in the morning? The other creators of this app and I sure have!
+          To solve this practical, every day issue we have we decided to create an alarm clock app that would get us out of bed.
+          Our alarm clock is clean and simplistic, but sports all the features you could want from an alarm clock: a settable alarm time,
+          an annoying buzzer sure to get you out of bed and even includes out "shake to snooze" function which pauses the alarm for 100
+          seconds if you shake your phone. </p></div>
+        <p>You can download the .apk file for our wonderful and functional alarm clock <a href=https://goo.gl/frdquQ target="_blank" alt="Downlod .apk">here</a>.
+        <p class="psectionheader">Process and Challenges</p>
+        <p>One of the most difficult aspects of programming the alarm clock was the snooze function. It required setting up another
+          clock sensor separate from the one that our app's clocks are based around and App Inventor has limits for countdown timers
+          so rather than being able to set the snooze for say five minutes and countdown, we had to have it set for 100 seconds so it
+          could display the countdown for the user to see.</p>
+        <div>
+          <img id="snooze" src="snoozenvariables-blocks.PNG">
+          <img id="snoozescreen" src="Snooze.PNG">
+        </div>
+        <p>Another challenge we faced was getting the alarm sound itself to a) not play over itself, as it runs on an interval of the
+           internal clock which is also keeping the clock text updated to the current time and b) not play when the app is first
+           opened, as the clock text and the alarm time text are the same. Both of these had rather easy fixes when we got more
+           creative. For a​, we simply added a variable we called "OneSound" that is set to true when the alarm sound plays. Then,
+           when the next time Internal Clock time interval comes around it does not execute the code as it only runs under the
+           condition that the "OneSound" variable is false. We used a variable to solve b also, creating a variable called "Clockable"
+           which is initialized to false and turns true when the user syncs the clock with their phone's clock. The alarm sound can only
+           play if the clock text is equal to the alarm text, and "Clockable" is true. </p>
+           <img src="SetTimeBlocks.PNG" id="settime">
+
+    </div>
+
+
+
+  </body>
+</html>
