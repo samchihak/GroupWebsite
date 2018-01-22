@@ -1,6 +1,7 @@
 
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  background-color: pink;
 }
 .title{
   font-weight: 700;
@@ -55,8 +56,8 @@ img .snooze{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #e8b9b9;
-  font-family: 'Raleway', sans-serif;
+  background-color: forestgreen;
+  font-family: font-family: 'PT Sans', sans-serif;
   font-weight: bold;
 }
 
