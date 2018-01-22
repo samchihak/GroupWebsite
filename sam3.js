@@ -18,10 +18,10 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    var oldq = $('.a').offset();
+    var oldq = $('.ab').offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
-    $('.a').animate({ top: newq[0], left: newq[1] }, speed, function(){
+    $('.ab').animate({ top: newq[0], left: newq[1] }, speed, function(){
       animateDiv();
     });
 
@@ -34,7 +34,7 @@ function calcSpeed(prev, next) {
 
     var greatest = x > y ? x : y;
 
-    var speedModifier = 0.1;
+    var speedModifier = 0.2;
 
     var speed = Math.ceil(greatest/speedModifier);
 

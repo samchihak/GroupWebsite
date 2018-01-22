@@ -133,10 +133,10 @@ img .snooze{
 }
 table, tr, th, td {
   padding: 30px;
-  border: 1px solid darkgrey
+  border: 1px solid darkgrey;
 }
 .table1 thead {
-  background-color: orange  ;
+  background-color: orange;
 }
 .tablebutton{
   outline: none;
@@ -150,10 +150,27 @@ table button:link{
   color: pink;
   text-decoration: none;
 }
-div.ab {
-width: 50px;
-height:50px;
- background-color:red;
+.ab {
+width: 75px;
+height:75px;
+background-color:gold;
 position:fixed;
 
 }
+.divbut{
+  color: inherit;
+  padding: 10px;
+}
+.divbut .a:link{
+  text-decoration:none;
+  color:black;
+}
+.divbut .a:visited{
+  text-decoration:none;
+  color:black;
+}
+body{background:url(http://imgs.mi9.com/uploads/fine-art/4116/vector-flower-patterns-background-60_1920x1200_70571.jpg)}
+
+#wrapper{display:none; height:70px;border:1px solid #ccc; background:#ccc}
+#click{background:white; color:red;opacity:.5}
+.active{display:block}

@@ -134,3 +134,24 @@ table, tr, th, td {
 .table1 thead {
   background-color: red;
 }
+div.bg-img {
+    background-image: url(whereis.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-color: blue;
+    border: 1px solid #aaa;
+    width: 400px;
+    height: 400px;
+    margin: 25px auto;
+}
+p, #data {
+    text-align: center;
+  }
+.waldo{
+  align-self: right;
+  height:  100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
