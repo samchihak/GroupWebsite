@@ -169,7 +169,9 @@ position:fixed;
   text-decoration:none;
   color:black;
 }
-body{background:url(http://imgs.mi9.com/uploads/fine-art/4116/vector-flower-patterns-background-60_1920x1200_70571.jpg)}
+body{
+  background:url(http://imgs.mi9.com/uploads/fine-art/4116/vector-flower-patterns-background-60_1920x1200_70571.jpg)
+}
 
 #wrapper{display:none; height:70px;border:1px solid #ccc; background:#ccc}
 #click{background:white; color:red;opacity:.5}
