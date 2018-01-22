@@ -1,3 +1,5 @@
+var speedModifier = 0.2;
+
 $(document).ready(function(){
     animateDiv();
 
@@ -34,7 +36,7 @@ function calcSpeed(prev, next) {
 
     var greatest = x > y ? x : y;
 
-    var speedModifier = 0.2;
+    var speedModifier = 0.3;
 
     var speed = Math.ceil(greatest/speedModifier);
 

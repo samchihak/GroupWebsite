@@ -151,11 +151,18 @@ table button:link{
   text-decoration: none;
 }
 .ab {
+display:block
 width: 75px;
 height:75px;
-background-color:gold;
+background-color:orange;
 position:fixed;
+outline-color: black;
+outline-width: 5px;
 
+}
+.ab button{
+  background-color: inherit;
+  border: none;
 }
 .divbut{
   color: inherit;
@@ -164,15 +171,30 @@ position:fixed;
 .divbut .a:link{
   text-decoration:none;
   color:black;
+
+}
+.ab:hover{
+  background-color: skyblue;
 }
 .divbut .a:visited{
   text-decoration:none;
   color:black;
 }
-body{
-  background:url(http://imgs.mi9.com/uploads/fine-art/4116/vector-flower-patterns-background-60_1920x1200_70571.jpg)
+
+
+#wrapper {
+  display: none;
+  height: 70px;
+  border: 1px solid #ccc;
+  background: #ccc
 }
 
-#wrapper{display:none; height:70px;border:1px solid #ccc; background:#ccc}
-#click{background:white; color:red;opacity:.5}
-.active{display:block}
+#click {
+  background: white;
+  color: red;
+  opacity: .5
+}
+
+.active {
+  display: block
+}
