@@ -149,6 +149,7 @@ table, tr, th, td {
 table button:link{
   color: pink;
   text-decoration: none;
+
 }
 .ab {
 display:block
@@ -185,16 +186,45 @@ outline-width: 5px;
 #wrapper {
   display: none;
   height: 70px;
-  border: 1px solid #ccc;
-  background: #ccc
+  border: 1px solid darkred;
+  background: white;
+  opacity: .6;
 }
 
 #click {
-  background: white;
-  color: red;
-  opacity: .5
+  background: darkred;
+  color: white;
+  font-weight: bold;
 }
 
 .active {
   display: block;
+}
+.blog1{
+  display: grid;
+  height:auto;
+  width: 75%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: rgb(68, 68, 68);
+  grid-template-columns: 1 /10;
+  padding-bottom: 10%;
+  line-height: 150%;
+  text-align: right;
+}
+footer{
+  display:block;
+  height: 1px;
+  border: 0;
+  border-top: 3px dashed orange;
+  margin: 1em 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+
+}
+.tBall{
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
 }
